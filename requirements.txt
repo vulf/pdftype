@@ -1,0 +1,4 @@
+curses
+time
+random
+pdftotext == 2.1.5
