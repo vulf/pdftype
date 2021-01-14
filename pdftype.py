@@ -56,6 +56,7 @@ def main(stdscr):
         stdscr.refresh()
         time.sleep(1)
     stdscr.clrtoeol()
+    curses.flushinp()
     stdscr.addstr('GOOOO!')
     # Begin game
     stdscr.move(row,col)
