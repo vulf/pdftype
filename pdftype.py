@@ -12,6 +12,7 @@ file_loc = 'LOCATION OF PDF'
 
 def fix_lig(s):
     transmap = {ord('ﬁ'):'fi', ord('ﬂ'):'fl', ord('–'):'-', ord('‘'):"'", ord('’'):"'", ord('“'):'"', ord('”'):'"'}
+    s = s.replace('- ','')
     return s.translate(transmap)
 
 def getpara():
