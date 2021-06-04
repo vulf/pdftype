@@ -1,5 +1,6 @@
 # PDFTYPE
 > Tired of typing interesting but not-so-helpful paragraphs while practicing touch typing? Want to type useful and relevant text from books?
+
 A `curses` touch typing game which lets you practice with text / paragraphs from your favourite PDFs. Written in Python3.
 
 ## How does it work?
